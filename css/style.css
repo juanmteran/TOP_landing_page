@@ -1,0 +1,190 @@
+
+
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto',arial;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .bx-navbar part */
+
+.bx-navbar {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1f2937;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
+}
+
+.header-logo img {
+    width: 80px;
+    height: 80px;
+    margin-right: auto;
+}
+
+.header-links {
+    display: flex;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 25px;
+    padding: 20px;
+    font-family: 'Roboto', arial;
+
+}
+
+/* .bx-wine part */
+
+.bx-wine {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.wine-1 {
+    display: flex;
+    flex-basis: 400px;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.wine-1 p {
+    font-family: 'Roboto', arial;
+    opacity: 0.8;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+    font-family: 'Roboto', arial;
+
+}
+
+.wine-1 button {
+    display: block;
+    text-align: center;
+    width: 200px;
+    border:none;
+    background: #F9FAF8;
+    padding: 10px;
+    border-radius: 8px;
+    color: #1f2937;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.wine-img img{
+    width:  300px;
+    height: 300px;
+}
+
+/* .bx-content part */
+
+.bx-content {
+    align-items: center;
+}
+
+.content-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content-info img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: #3882f6;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+
+/* .bx-quotation part */
+
+.bx-quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 0 200px;
+}
+
+.bx-quote p {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto', arial;
+}
+
+.bx-quote b {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-family: 'Roboto', arial;
+    text-align: right;
+}
+
+.bx-signup {
+    background-color: #3882f6;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
+}
+
+.sign-item {
+    flex: 1;
+}
+
+.signs-text {
+    text-align: left;
+}
+
+.signs-text p{
+    color: #fff;
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
+}
+
+h3 {
+    color:#fff ;
+    font-family: 'Roboto', arial;
+    padding: 0;
+    margin: 30px 0px 0px 50px
+}
+
+
+.signs-button button{
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882f6;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+.bx-footer {
+    background-color: #1f2937;
+    color: #fff;
+    font-family: 'Roboto', arial;
+}
